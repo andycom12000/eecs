@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 #!/usr/bin/env ruby21
+=======
+#!/usr/bin/env ruby
+>>>>>>> 95c64ec3b8489a2e2850ef549fd4583fbd7fe482
 ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../../Gemfile', __FILE__)
 load Gem.bin_path('bundler', 'bundle')

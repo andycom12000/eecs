@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   resources :people
   
   resources :events do
@@ -11,6 +12,9 @@ Rails.application.routes.draw do
   root :to => "welcome#index"
   
 # The priority is based upon order of creation: first created -> highest priority.
+=======
+  # The priority is based upon order of creation: first created -> highest priority.
+>>>>>>> 95c64ec3b8489a2e2850ef549fd4583fbd7fe482
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"

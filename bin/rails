@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/usr/bin/env ruby21
+=======
+#!/usr/bin/env ruby
+>>>>>>> 95c64ec3b8489a2e2850ef549fd4583fbd7fe482
 begin
   load File.expand_path("../spring", __FILE__)
 rescue LoadError
