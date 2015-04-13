@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 set :application, 'helloWorld'
-set :repo_url, 'andycom12000@gmail.com:andy/eecsite.git'
+set :repo_url, 'git@github.com:andycom12000/eecsite.git'
 
 # Default branch is :master
 ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
