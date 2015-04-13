@@ -1,6 +1,6 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
-
+require 'capistrano'
 #ssh-add
 set :application, 'helloWorld'
 set :repo_url, 'git@github.com:andycom12000/eecs.git'
