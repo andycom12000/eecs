@@ -3,19 +3,15 @@
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
 
-<<<<<<< HEAD
 server 'shadow.nctucs.net', user: 'andy', roles: %w{app db web}, my_property: :my_value
 server 'shadow.nctucs.net', user: 'andy', roles: %w{app web}, other_property: :other_value
 server 'shadow.nctucs.net', user: 'andy', roles: %w{db}
 
 #server 'shadow.nctucs.net', user: 'andy', roles: %w{db}
-=======
 # server 'example.com', user: 'deploy', roles: %w{app db web}, my_property: :my_value
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
-
->>>>>>> 95c64ec3b8489a2e2850ef549fd4583fbd7fe482
 
 # role-based syntax
 # ==================
@@ -25,16 +21,9 @@ server 'shadow.nctucs.net', user: 'andy', roles: %w{db}
 # property set. Specify the username and a domain or IP for the server.
 # Don't use `:all`, it's a meta role.
 
-<<<<<<< HEAD
 #role :app, %w{andy@shadow.nctucs.net}, my_property: :my_value
 #role :web, %w{andy@shadow.nctucs.net}, other_property: :other_value
 #role :db,  %w{andycom12000@shadow.nctucs.net}
-=======
-# role :app, %w{deploy@example.com}, my_property: :my_value
-# role :web, %w{user1@primary.com user2@additional.com}, other_property: :other_value
-# role :db,  %w{deploy@example.com}
->>>>>>> 95c64ec3b8489a2e2850ef549fd4583fbd7fe482
-
 
 
 # Configuration
