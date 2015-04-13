@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 set :application, 'helloWorld'
-set :repo_url, 'https://github.com/andycom12000/eecs.git'
+set :repo_url, 'git@github.com:andycom12000/eecs.git'
 
 set :ssh_options, {
 	forward_agent: true
